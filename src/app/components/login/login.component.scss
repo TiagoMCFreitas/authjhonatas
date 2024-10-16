@@ -1,0 +1,55 @@
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.gap-2 > * + * {
+  margin-top: 1.5rem;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  width: 100%;
+}
+
+p-floatLabel {
+  display: block;
+  width: 100%;
+}
+
+p-floatLabel input,
+p-password input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 4px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 15px rgba(0, 1, 1, 0.3);
+  padding: 50px;
+  border-radius: 20px;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+
